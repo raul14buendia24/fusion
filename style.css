@@ -479,9 +479,9 @@ ul.contact-ul img:hover {
 }
 
 @media screen and (max-width: 650px) {
-  .contact-ul img {
+  ul.contact-ul img {
     width: 25%;
-    height: 30%;
+    height: 25%;
     padding: 38px;
   }
 }
