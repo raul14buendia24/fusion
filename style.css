@@ -428,6 +428,13 @@ ul.social-media img {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .grid-container {
+    padding-left:3%;
+    padding-right:3%;
+  }
+}
+
 #contacto {
   width: auto;
   min-height: 100vh;
