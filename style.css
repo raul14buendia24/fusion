@@ -171,7 +171,7 @@ h2 {
   color: #fefefe;
   text-align: center;
   font-size: 4.3vw;
-  max-width: 850px;
+  width: fit-content;
   max-lines: 4;
   line-height: 70px;
   position: absolute;
@@ -362,7 +362,7 @@ ul.social-media img {
 
 img {
   width: 100%; /* need to overwrite inline dimensions */
-  height: auto;
+  height: 100px;
 }
 
 /* hover styles */
@@ -424,6 +424,16 @@ img {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    justify-content: center;
+    grid-gap: 5em;
+    padding: 10% 3% 0% 3%;
+  }
+}
+
 #contacto {
   width: auto;
   min-height: 100vh;
@@ -470,4 +480,12 @@ ul.contact-ul img:hover {
   height: auto;
   border-radius: 20px;
   opacity: 0.7;
+}
+
+@media screen and (max-width: 650px) {
+  ul.contact-ul img {
+    width: 30%;
+    height: 30%;
+    padding: 40px;
+  }
 }
