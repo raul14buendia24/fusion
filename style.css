@@ -479,7 +479,7 @@ ul.contact-ul img:hover {
 }
 
 @media screen and (max-width: 650px) {
-  ul.contact-ul img {
+  .contact-ul img {
     width: 25%;
     height: 30%;
     padding: 38px;
