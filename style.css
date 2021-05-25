@@ -342,6 +342,7 @@ ul.social-media img {
 #portafolio {
   width: auto;
   min-height: 100vh;
+  margin-bottom:10px;
   clear: both;
   text-align: center;
 }
