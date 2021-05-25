@@ -426,7 +426,7 @@ img {
 
 @media screen and (max-width: 650px) {
   img {
-    width: 100%; /* need to overwrite inline dimensions */
+    width: 90%; /* need to overwrite inline dimensions */
     height: 100px;
   }
 }
